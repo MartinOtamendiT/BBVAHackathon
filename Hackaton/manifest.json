@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 2,
+   
+    "name": "Brython Console (REPL)",
+    "description": "Consola interactiva Brython para probar código Python en cualquier momento y lugar",
+   
+    "content_security_policy":"script-src 'self' 'unsafe-eval' https://apis.google.com; object-src 'self'",
+   
+    "version": "1.0",
+   
+    "icons": {
+      "32": "icons/32.png",
+      "128": "icons/128.png"
+    },
+   
+    "browser_action": {
+      "default_icon": "icons/32.png",
+      "default_popup": "index.html"
+    }
+   
+   }
