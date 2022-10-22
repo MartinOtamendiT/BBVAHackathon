@@ -1,0 +1,23 @@
+* {
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+
+body {
+    display:flex;
+    justify-content:flex-end;
+    min-width:600px; /*IMPORTANTE: ASIGNAR UN ANCHO MÍNIMO */
+    min-height:500px; /* IMPORTANTE: ASIGNAR UN ALTO MÍNIMO */
+}
+
+#code {
+    background-color:#000;
+    color:#fff;
+    font-family:'Oxygen Mono', Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace;
+    font-size:14px;
+    overflow:auto;
+    height:100vh;
+    width:100vw;
+    resize:none;
+}
