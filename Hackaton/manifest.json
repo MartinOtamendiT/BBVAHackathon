@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 2,
+   
+    "name": "Fi-Di",
+    "description": "Mantente seguro al navegar en internet",
+   
+    "content_security_policy":"script-src 'self' 'unsafe-eval' https://apis.google.com; object-src 'self'",
+   
+    "version": "1.0",
+   
+    "icons": {
+      "32": "icons/icon.jpg",
+      "128": "icons/icon.jpg"
+    },
+   
+    "browser_action": {
+      "default_icon": "icons/icon.png",
+      "default_popup": "index.html"
+    }
+   
+   }
